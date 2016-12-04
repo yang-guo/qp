@@ -35,7 +35,7 @@ for lib in testlib testlib_new testlib2 testlib3 testlibBadQVersion testlibWindo
 	fi
 done
 
-echo "testing that qpr doesn't add a bad library'"
+echo "testing that qpr doesn't add a bad library"
 if q qpr.q add testPackages/badlib -loc file://$QREPO -q; then
 	echo "qpr add malformed library to repo succeeded"
 	exit 1
