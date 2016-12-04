@@ -1,0 +1,10 @@
+{
+	"name": "testlib",
+	"version": "2.0.0",
+	"dependencies": {
+		"testlib3":"0.0.0+",
+		"testlib2":""
+	},
+	"osversion" : ["l32","l64","m32","m64"],
+	"qversion" : "2.8+"
+}

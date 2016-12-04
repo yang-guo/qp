@@ -1,0 +1,8 @@
+{
+	"name": "testlib",
+	"version": "1.0.0",
+	"dependencies": {
+		"testlib3":"0.0.0+",
+		"testlib2":""
+	}
+}

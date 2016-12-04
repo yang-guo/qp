@@ -1,0 +1,10 @@
+{
+	"name": "testlibWindowsOnly",
+	"version": "2.0.0",
+	"dependencies": {
+		"testlib3":"0.0.0+",
+		"testlib2":""
+	},
+	"osversion" : ["w32","w64"],
+	"qversion" : "2.8+"
+}
